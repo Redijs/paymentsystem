@@ -1,0 +1,5 @@
+package lv.renata.paysystem;
+
+public interface Payee {
+
+}
