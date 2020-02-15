@@ -1,0 +1,37 @@
+package lv.renata.emplouee;
+
+import lv.renata.paysystem.Payee;
+
+public class ComissionEmployee extends Employee{ // pirms tam bija implements Payee
+
+		
+
+	private Double grossComission = 0.0;
+	
+	
+	public ComissionEmployee(String name, Integer bankAccount, Double grossWage) {
+		super(name, bankAccount, grossWage);
+
+	}
+
+
+	@Override
+	public Double grossPayment() {
+		return grossWage + doCurrentComission ();
+	}
+
+	
+	private Double doCurrentComission(){
+		Double commission = grossComission;
+		grossComission = 0.0;
+		return commission;
+		
+	}
+	
+public void giveCommision(Double amount){//metode, kas pieshkirs komisiju
+grossComission +=amount; //viens variants
+	//grossComission = grossComission + amount; //tas pats, tikai cits pieraksts
+
+}
+
+}

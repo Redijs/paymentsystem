@@ -1,0 +1,15 @@
+package lv.renata.test;
+
+import lv.renata.emplouee.ComissionEmployee;
+import lv.renata.paysystem.PaymentSystem;
+
+public class TestPayment {
+
+	public static void main(String[] args) {
+		PaymentSystem paymentSystem = new PaymentSystem();
+		
+		ComissionEmployee toms = new ComissionEmployee("Toms Ozolins", 1010101, 5000.5);
+		ComissionEmployee ieva = new ComissionEmployee("Ieva Berzina", 2020202, 5600.5);
+	}
+
+}

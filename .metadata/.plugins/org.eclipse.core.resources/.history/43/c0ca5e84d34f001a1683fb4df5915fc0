@@ -1,0 +1,13 @@
+package lv.renata.test;
+
+public class TestPayment {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package lv.renata.emplouee;
+
+import lv.renata.paysystem.Payee;
+
+public abstract class Employee implements Payee{
+
+	
+	
+}
